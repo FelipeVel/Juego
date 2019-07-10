@@ -1,0 +1,44 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+	<head>
+		<meta charset="utf-8">
+		<meta name="description" content="La llorona">
+		<meta name="keywords" content="canvas colisiones jquery ajax">
+		<meta name="author" content="Alejandro Daza">
+		<title>La leyenda de Oma y Shu</title>
+		
+		<link rel="stylesheet" type="text/css" href="css/default.css" media="screen">
+		<script src="js/jquery-1.11.0.min.js" language="JavaScript1.2"></script>
+		<script src="js/script.js" language="JavaScript1.2"></script>
+        <script src="js/pared.js" language="JavaScript1.2"></script>
+        <script src="js/agua.js" language="JavaScript1.2"></script>
+
+		
+		
+	</head>
+	<body>
+		<section>
+			<canvas id="mi_canvas" width="640" height="524">
+				Tu navegador no es compatible
+			</canvas>			
+		</section>
+		<section>
+			<div id="popup" style="display: none;">
+				<div class="content-popup">
+					<div class="close"><a href="#" id="close"><img src="img/close.png"/></a></div>
+
+				</div>
+			</div>
+			<h1>La leyenda de Oma y Shu</h1>
+			<button id="instrucciones">Ver Instrucciones</button><br>
+			<button id="iniciar">Iniciar</button>
+		</section>
+		
+		<img id="agua_abajo" src="img/agua-abajo.png" height="40" width="43"/>
+		<img id="agua_arriba" src="img/agua-arriba.png" width="43" height="40" />
+		<img id="agua_derecha" src="img/agua-derecha.png" width="43" height="40"/>
+		<img id="agua_izquierda" src="img/agua-izquierda.png" width="43" height="40"/>
+		
+		
+	</body>
+</html>
